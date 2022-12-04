@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    text-decoration: none;
+}
+
+body{
+    font-size: 100;
+    background: linear-gradient(0deg, #E9F3F0 0%, #F6E5E5 85.61%);
+}
+
+.cabecalho
+{
+    display: flex;
+    padding: 40px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cabecalho-titulo
+{
+    font-family: 'Exo', sans-serif;
+    color: #1F212B;
+}
+
+.cabecalho-link
+{
+    font-family: 'Roboto', sans-serif;
+    color: #191524;
+}
+
+.cabecalho-links
+{
+    display: flex;
+    gap: 50px;
+    padding-right: 400px;
+    
+}
+
+.cabecalho-botao
+{
+    width: 125px;
+    color: #777176;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+.corpo
+{
+    padding: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.corpo-primario-titulo
+{
+    color: #241B1B;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 50px;
+}
+
+.corpo-primario
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.corpo-secundario
+{
+ padding-right: 200px;
+}
+
+.corpo-secundario-botao
+{
+    width: 185px;
+    color: #F6E5E5;
+    border: none;
+    background-color: #212838;
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 45px;
+}
+
+.imagem-principal
+{
+    width: 600px;
+    height: 700px;
+}
+
+.corpo-secundario-imagem1
+{
+    margin-left: 350px;
+    max-width: 20px;
+    margin-top: 5px;
+}
+
+.corpo-secundario-imagem2
+{
+    max-width: 200px;
+    max-height: 200px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.corpo-secundario-imagem3
+{
+    max-width: 100px;
+    max-height: 100px;
+}
+
+.corpo-secundario-imagem4
+{
+    padding-left: 100px;
+}
+
+.corpo-primario-paragrafo
+{
+   
+    font-family: 'Roboto', sans-serif;
+    color: #2b243d;
+    margin-top: 15px;
+    font-size: 14px;
+
+}
+
+.corpo-secundario-paragrafo
+{
+    font-family: 'Roboto', sans-serif;
+    color: #191524;
+ 
+}
+
+.corpo-secundario-paragrafo1
+{
+    font-family: 'Roboto', sans-serif;
+    color: #191524;
+    padding-left: 100px;
+}
+
+.corpo-secundario-100
+{
+    font-family: 'Roboto', sans-serif;
+    color: #191524;
+    padding-left: 100px;
+}
+
+.corpo-secundario-paragrafo2
+{
+    font-family: 'Roboto', sans-serif;
+    color: #191524;
+    padding-left: 100px;
+}
+
+.perna
+{
+    display: flex;  
+    flex-direction: row;
+    padding-left: 100px;
+   
+}
+
+.perna-imagem1
+{ 
+    max-width: 150px;
+    max-height: 150px;
+}
+
+.perna-imagem2
+{
+    max-width: 150px;
+    max-height: 150px;
+}
